@@ -1,0 +1,41 @@
+body{
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+
+.campo-batalla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.caja-batala{
+    margin: 25px;
+}
+
+.text-mensajes{
+    font-size: 45px;
+}
+
+.img-batalla{
+    border-radius: 50%;
+}
+
+.btn-ataques{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.btn-ataques:hover{
+    border: 2px solid #fff;
+    cursor: pointer;
+    margin: 18px;
+}
